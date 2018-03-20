@@ -9,7 +9,15 @@ public class Index{
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
-    System.out.println("3. Exit");
+	System.out.println("3. Methods");
+	System.out.println("4. Shadowing");
+	System.out.println("5. Overloading");
+	System.out.println("6. First Array");
+	System.out.println("7. Second Array");
+	System.out.println("8. Try Catch");
+	System.out.println("9. Enhanced For");
+	System.out.println("10. TwoD_Array");
+    System.out.println("11. Exit");
 
     System.out.println();
 
@@ -28,11 +36,51 @@ public class Index{
         FirstSwitch.main(null);
         break;
       case 3:
+	    System.out.println("Methods Lab");
+	    System.out.println();
+	    Methods.main(null);
+       break;
+      case 4:
+	  	System.out.println("Shadow Lab");
+	  	System.out.println();
+	  	Shadow.main(null);
+       break;
+      case 5:
+	  	System.out.println("Overloading");
+	  	System.out.println();
+	  	Arithmetic.main(null);
+       break;
+      case 6:
+	  	System.out.println("First Array");
+	  	System.out.println();
+	  	FirstArray.main(null);
+       break;
+      case 7:
+	  	 System.out.println("Second Array");
+	  	 System.out.println();
+	  	 SecondArray.main(null);
+	  case 8:
+		 System.out.println("Try Catch");
+		 System.out.println();
+	  	 TryCatch.main(null);
+      break;
+      case 9:
+	  System.out.println("Enhanced For");
+	  System.out.println();
+	  EnhancedFor.main(null);
+      break;
+      case 10:
+	  	  System.out.println("TwoD_Array");
+	  	  System.out.println();
+	  	  TwoD_Array.main(null);
+      break;
+      case 11:
         System.out.println("Exiting....");
         break;
       default:
         System.out.println("Invalid choice");
         break;
+
     }
     System.out.println();
 
