@@ -1,5 +1,0 @@
-@ECHO OFF
-C:
-CD "\Users\g00357576\Downloads\First-Repository"
-"C:\Program Files\Java\jdk1.8.0_131\bin\java.exe" LogicalOutputs
-PAUSE
