@@ -18,7 +18,8 @@ public class Index{
 	System.out.println("9. Enhanced For");
 	System.out.println("10. TwoD_Array");
 	System.out.println("11. Search Student");
-    System.out.println("12. Exit");
+    System.out.println("12. Convert");
+    System.out.println("13. Exit");
 
     System.out.println();
 
@@ -76,11 +77,15 @@ public class Index{
 	  	  TwoD_Array.main(null);
       break;
       case 11:
-	  	  	  System.out.println("Search Student");
-	  	  	  System.out.println();
+	  	  System.out.println("Search Student");
+	  	  System.out.println();
 	  	  SearchStudent.main(null);
 	   break;
-      case 12:
+	   case 12:
+	      System.out.println("Convert");
+	   	  System.out.println();
+	  	  Convert.main(null);
+      case 13:
         System.out.println("Exiting....");
         break;
       default:
