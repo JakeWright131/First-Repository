@@ -10,3 +10,5 @@ This is where you will tyoe out the code you want for your repository.
 When you wish to upload it type into git bash: git add .
 Then type in git commit -m "some message regarding the code".
 Then finally type in git push , this will push all of the files you were working on into your repository.
+
+The excersises that were to be completed over the Easter break have been completed. The first excersie involved coverting fahrenheit to celsius and celsius to fahrenheit and the ability to chose which conversion to use. The second exercise involved the ability to locate people by their name, job , age , salary and date of hire.
